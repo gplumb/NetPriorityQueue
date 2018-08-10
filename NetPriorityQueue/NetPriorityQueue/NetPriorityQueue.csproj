@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ReleaseVersion>0.0.1</ReleaseVersion>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Graham "Gee" Plumb</Authors>
+    <PackageLicenseUrl>https://github.com/gplumb/NetPriorityQueue/blob/master/LICENSE</PackageLicenseUrl>
+    <Owners>Graham "Gee" Plumb</Owners>
+    <PackageProjectUrl>https://github.com/gplumb/NetPriorityQueue</PackageProjectUrl>
+    <Title>NetPriorityQueue</Title>
+    <Description>A .net standard 2 port of BlueRaja's High-Speed-Priority-Queue-for-C-Sharp project (https://github.com/BlueRaja/High-Speed-Priority-Queue-for-C-Sharp).</Description>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>NetPriorityQueue</PackageId>
+    <PackageReleaseNotes>Initial port of BlueRaja's High-Speed-Priority-Queue-for-C-Sharp project</PackageReleaseNotes>
+    <Summary>A .net standard 2 port of BlueRaja's High-Speed-Priority-Queue-for-C-Sharp project (https://github.com/BlueRaja/High-Speed-Priority-Queue-for-C-Sharp).</Summary>
+    <Company />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+
+</Project>
